@@ -4,6 +4,28 @@
 .no-padding {
   padding: 0px;
 }
+
+.butn {
+  box-sizing: border-box;
+  background-color: #3ca4f0;
+  border: 2px solid #3ca4f0;
+  border-radius: 0.6em;
+  color: #4347b2;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 10px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.butn:hover,
+.butn:focus {
+  /* background-color: darkblue; */
+  color: #fff;
+  outline: 0;
+}
+
 .mainContainer {
   height: 100vh;
 }
@@ -67,6 +89,23 @@
   /* box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
     rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+}
+.location {
+  z-index: 10;
+  position: absolute;
+  top: 75%;
+  left: 37%;
+  /* transform: translate(140%, 1400%); */
+  /* border: 1px solid black; */
+  width: 109px;
+}
+.location i {
+  color: #4347b2;
+  margin-right: 5px;
+}
+.location a {
+  color: #4347b2;
+  text-decoration: none;
 }
 .mWebImg {
   display: flex;
