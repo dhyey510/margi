@@ -91,7 +91,7 @@
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
 }
 .location {
-  z-index: 10;
+  /* z-index: 10; */
   position: absolute;
   top: 75%;
   left: 37%;
@@ -223,9 +223,16 @@
   .layer3 {
     height: 100vh;
   }
+  .bottomLeftImg {
+    z-index: 90;
+  }
   .onlymWeb {
+    /* z-index: 90; */
     visibility: visible;
     display: inline-block;
+  }
+  .onlymWeb .location {
+    z-index: 95;
   }
   .onlyWebLoad {
     visibility: hidden;
